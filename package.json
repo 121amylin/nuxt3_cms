@@ -13,7 +13,9 @@
     "@commitlint/config-conventional": "^12.1.4",
     "cz-customizable": "^6.3.0",
     "husky": "^7.0.1",
-    "nuxt": "3.0.0"
+    "naive-ui": "^2.34.3",
+    "nuxt": "3.0.0",
+    "vfonts": "^0.0.3"
   },
   "config": {
     "commitizen": {
@@ -25,5 +27,8 @@
       "eslint --fix",
       "git add"
     ]
+  },
+  "dependencies": {
+    "unplugin-vue-components": "^0.22.12"
   }
 }
